@@ -1,0 +1,17 @@
+{
+  "name": "parser_v2",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Aleksey Mikhin <superhihem@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "description": ""
+}
