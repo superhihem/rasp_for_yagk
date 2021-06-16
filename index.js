@@ -2,7 +2,7 @@ const rasp = require("./rasp");
 const pjson = require("./package.json");
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 80;
 
 let visits = 0;
 let date = new Date();
