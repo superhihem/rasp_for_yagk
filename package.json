@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "node index"
+    "start": "node index.js",
+    "web": "node index.js"
   },
   "author": "Aleksey Mikhin <superhihem@gmail.com>",
   "license": "ISC",
