@@ -77,9 +77,9 @@ function parse(callback, params = {}){
             })
 
             callback(data);
-        }, "http://ftp.sttec.yar.ru/pub/timetable/rasp_second.html");
+        }, "https://menu.sttec.yar.ru/timetable/rasp_second.html");
 
-    }, "http://ftp.sttec.yar.ru/pub/timetable/rasp_first.html");
+    }, "https://menu.sttec.yar.ru/timetable/rasp_first.html");
 };
 
 
