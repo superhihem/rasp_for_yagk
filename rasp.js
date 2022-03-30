@@ -1,4 +1,4 @@
-const http = require("http");
+const https = require("https");
 const cheerio = require("cheerio");
 
 
@@ -85,7 +85,7 @@ function parse(callback, params = {}){
 
 function get_page(callback, url){
     let data = "";
-    http.get(url, resp => {
+    https.get(url, resp => {
         resp.on("data", ch => { 
             data += ch; 
         });
@@ -95,8 +95,6 @@ function get_page(callback, url){
         });
     });
 }
-
-parse(()=>{})
 
 module.exports.parse = parse;
 module.exports.headers = set_headers;
